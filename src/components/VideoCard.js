@@ -12,7 +12,7 @@ const VideoCard = ({info}) => {
       <img className='rounded-xl w-full h-full object-cover' src={thumbnails.medium.url} alt="thumbnail" />
       <ul>
         <span className='flex items-center py-2'>
-          <img className='w-12 h-12' src={SUBSCRIPTIONS_IMAGE} alt="" />
+          <img className='w-12 h-12' src={SUBSCRIPTIONS_IMAGE} alt="usericon" />
           <li className='font-bold line-clamp-2 mx-2'>{title}</li>
         </span>
         <span className='flex flex-col ml-12 -mt-2 text-sm font-semibold text-gray-500'>

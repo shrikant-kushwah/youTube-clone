@@ -4,7 +4,7 @@ import Button from './Button';
 const ButtonList = () => {
 
   const btnList = [
-    "ALl",
+    "All",
     "Music",
     "Holi",
     "Live",

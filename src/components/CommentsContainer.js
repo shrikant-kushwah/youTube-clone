@@ -2,7 +2,6 @@ import React from 'react'
 
 
 
-
 const commentsData = [
   {
     name: "Shrikant Kushwah",

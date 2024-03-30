@@ -84,13 +84,13 @@ const Header = () => {
       <div className=' col-span-10 px-10'>
         <div className='flex'>
           <input
-            className='w-9/12 h-10 border border-gray-400 p-4 rounded-l-full'
+            className='w-9/12 h-10 border border-gray-400 p-4 rounded-l-full px-4'
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
             onFocus={() => setShowSuggestions(true)}
             onBlur={() => setShowSuggestions(false)}
             type="text"
-          // placeholder='Search'
+          placeholder='Search'
           />
           <button
             className='border border-gray-400 rounded-r-full h-10 px-4 py-1 text-lg bg-gray-100'>🔍</button>

@@ -19,6 +19,11 @@ const Sidebar = () => {
             className='font-semibold mx-4'
           >Home</li>
         </Link>
+        <Link className='flex items-center' to="/demo">
+          <li
+            className='font-semibold mx-4 py-2 ml-12'
+          >Demo</li>
+        </Link>
         <Link className='flex py-3'>
           <img className='w-8 h-8' src="https://i.pinimg.com/originals/17/d2/18/17d21878c22fe49e7e4752eecaa36541.png" alt="shorts" />
           <li className='mx-4 font-semibold'>Shorts</li>
